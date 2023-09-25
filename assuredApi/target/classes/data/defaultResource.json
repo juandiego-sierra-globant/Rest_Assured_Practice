@@ -1,0 +1,9 @@
+{
+  "name": "Otro nombre",
+  "trademark": "Otro trademark",
+  "stock": 7000,
+  "price": 3223.07,
+  "description": "Descripcion",
+  "tags": " otro status",
+  "is_active": false
+}

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.testing.api.runner.TestRunner" time="7.398" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi\target\test-classes;C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi\target\classes;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\juandiego.sierra\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\juandiego.sierra\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\juandiego.sierra\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\juandiego.sierra\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\juandiego.sierra\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\juandiego.sierra\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\juandiego.sierra\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\juandiego.sierra\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\juandiego.sierra\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\juandiego.sierra\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\juandiego.sierra\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\juandiego.sierra\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\juandiego.sierra\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\juandiego.sierra\AppData\Local\Temp\surefire7287125180040564496\surefirebooter-20230925114522161_3.jar C:\Users\juandiego.sierra\AppData\Local\Temp\surefire7287125180040564496 2023-09-25T11-45-21_939-jvmRun1 surefire-20230925114522161_1tmp surefire_0-20230925114522161_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi\target\test-classes;C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi\target\classes;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-java\7.13.0\cucumber-java-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-core\7.13.0\cucumber-core-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-gherkin\7.13.0\cucumber-gherkin-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.13.0\cucumber-gherkin-messages-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\datatable\7.13.0\datatable-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-plugin\7.13.0\cucumber-plugin-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\docstring\7.13.0\docstring-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\html-formatter\20.3.1\html-formatter-20.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\juandiego.sierra\.m2\repository\io\cucumber\cucumber-junit\7.13.0\cucumber-junit-7.13.0.jar;C:\Users\juandiego.sierra\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\juandiego.sierra\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\juandiego.sierra\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\juandiego.sierra\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\juandiego.sierra\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\juandiego.sierra\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\juandiego.sierra\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\juandiego.sierra\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\juandiego.sierra\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\juandiego.sierra\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\juandiego.sierra\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\juandiego.sierra\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\juandiego.sierra\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\juandiego.sierra\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\juandiego.sierra\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\juandiego.sierra\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\juandiego.sierra\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\juandiego.sierra\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\juandiego.sierra"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\juandiego.sierra\AppData\Local\Temp\surefire7287125180040564496\surefirebooter-20230925114522161_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="juandiego.sierra"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\juandiego.sierra\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JUANDI~1.SIE\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\juandiego.sierra\Downloads\assuredApi (2)\assuredApi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\InvGate\Insight Agent;C:\Program Files\Git\cmd;C:\Users\juandiego.sierra\Downloads\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Users\juandiego.sierra\AppData\Local\Android\Sdk\tools\bin;C:\Users\juandiego.sierra\AppData\Local\Android\Sdk\tools;C:\Users\juandiego.sierra\AppData\Local\Android\Sdk\platform-tools;C:\Users\juandiego.sierra\AppData\Roaming\npm\node_modules\appium;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\juandiego.sierra\AppData\Roaming\npm;C:\Users\juandiego.sierra\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Get the List of Clients" classname="Client testing CRUD" time="3.67">
+    <system-out><![CDATA[25-09-2023 11:45:23 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+25-09-2023 11:45:23 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Clients
+25-09-2023 11:45:23 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+25-09-2023 11:45:24 INFO [api.stepDefinitions.ClientSteps:30] - there are registered clients in the system
+25-09-2023 11:45:25 INFO [api.stepDefinitions.ClientSteps:81] - I send a GET request to view all the clients
+25-09-2023 11:45:26 INFO [api.stepDefinitions.ClientSteps:83] - [
+    {
+        "name": "Berneice",
+        "lastName": "Hintz",
+        "country": "Barbados",
+        "city": "Yorba Linda",
+        "email": "Donato43@hotmail.com",
+        "phone": "1-425-705-0487 x77466",
+        "id": "1"
+    },
+    {
+        "name": "Crystal",
+        "lastName": "Mraz",
+        "country": "Cocos (Keeling) Islands",
+        "city": "Cedar Rapids",
+        "email": "Leann84@gmail.com",
+        "phone": "417-928-1106 x973",
+        "id": "2"
+    },
+    {
+        "name": "Arlene",
+        "lastName": "Reynolds",
+        "country": "Guatemala",
+        "city": "Lee's Summit",
+        "email": "Adaline_Murray26@gmail.com",
+        "phone": "(758) 351-6898",
+        "id": "3"
+    },
+    {
+        "name": "Maiya",
+        "lastName": "Schmitt",
+        "country": "Syrian Arab Republic",
+        "city": "Pensacola",
+        "email": "Otilia2@yahoo.com",
+        "phone": "(271) 591-8686",
+        "id": "4"
+    },
+    {
+        "name": "Jaylin",
+        "lastName": "MacGyver",
+        "country": "Namibia",
+        "city": "Missouri City",
+        "email": "Russ_Braun@gmail.com",
+        "phone": "1-777-247-3449 x306",
+        "id": "5"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "6"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "7"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "8"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "9"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "10"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "11"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "12"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "13"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "14"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "15"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "16"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "17"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "18"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "19"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "20"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "21"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "22"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "23"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "24"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "25"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "26"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "27"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john-doe@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "28"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john-doe@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "29"
+    },
+    {
+        "name": "Taylor",
+        "lastName": "Sift",
+        "country": "USA",
+        "city": "New York",
+        "email": "taylor-swift@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "30"
+    },
+    {
+        "name": "Taylor",
+        "lastName": "Swift",
+        "country": "USA",
+        "city": "New York",
+        "email": "taylor-swift@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "31"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "39"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "40"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "41"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "45"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "46"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "48"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "49"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "50"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "51"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "52"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "53"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "54"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "55"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "56"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "57"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "58"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "59"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "60"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "61"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "62"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "63"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "64"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "65"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "66"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "67"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "68"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "69"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "70"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "71"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "72"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "73"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "74"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "75"
+    },
+    {
+        "name": "<name>",
+        "lastName": "<lastName>",
+        "country": "<country>",
+        "city": "<city>",
+        "email": "<email@email.com>",
+        "phone": "<123-456-7890>",
+        "id": "76"
+    },
+    {
+        "name": "<name>",
+        "lastName": "<lastName>",
+        "country": "<country>",
+        "city": "<city>",
+        "email": "<email@email.com>",
+        "phone": "<123-456-7890>",
+        "id": "77"
+    }
+]
+25-09-2023 11:45:26 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+25-09-2023 11:45:26 INFO [api.stepDefinitions.ClientSteps:141] - validates the response with client list JSON schema
+]]></system-out>
+  </testcase>
+  <testcase name="Get the List of Resources" classname="Client testing CRUD" time="1.17">
+    <system-out><![CDATA[25-09-2023 11:45:27 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+25-09-2023 11:45:27 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+25-09-2023 11:45:27 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+25-09-2023 11:45:27 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+25-09-2023 11:45:27 INFO [api.stepDefinitions.ClientSteps:88] - I send a GET request to view all the resources
+25-09-2023 11:45:27 INFO [api.stepDefinitions.ClientSteps:90] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "Otro nombre",
+        "trademark": "Otro trademark",
+        "stock": 7000,
+        "price": 3223.07,
+        "description": "Descripcion",
+        "tags": " otro status",
+        "is_active": false,
+        "id": "8"
+    }
+]
+25-09-2023 11:45:27 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+25-09-2023 11:45:27 INFO [api.stepDefinitions.ClientSteps:149] - validates the response with resources list JSON schema
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new client" classname="Client testing CRUD" time="0.828">
+    <system-out><![CDATA[25-09-2023 11:45:28 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+25-09-2023 11:45:28 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+25-09-2023 11:45:28 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+25-09-2023 11:45:28 INFO [api.stepDefinitions.ClientSteps:54] - I have a client with the following details:| Name   | LastName | Country | City     | Email                  | Phone                  |
+| Taylor | Swift    | USA     | New York | taylor-swift@gmail.com | "1-425-705-0487 x77466 |
+
+25-09-2023 11:45:28 INFO [api.stepDefinitions.ClientSteps:95] - I send a POST request to create a client
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 201
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:130] - the response should include the details of the created client
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:131] - {
+    "name": "Taylor",
+    "lastName": "Swift",
+    "country": "USA",
+    "city": "New York",
+    "email": "taylor-swift@gmail.com",
+    "phone": "\"1-425-705-0487 x77466",
+    "id": "78"
+}
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:136] - validates the response with client JSON schema
+]]></system-out>
+  </testcase>
+  <testcase name="Update last details" classname="Client testing CRUD" time="1.556">
+    <system-out><![CDATA[25-09-2023 11:45:29 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+25-09-2023 11:45:29 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+25-09-2023 11:45:29 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:75] - I retrieve the details of the latest resource
+25-09-2023 11:45:29 INFO [api.stepDefinitions.ClientSteps:109] - I send a PUT request to update the latest resource{
+    "name": "Otro nombre",
+    "trademark": "Otro trademark",
+    "stock": 7000,
+    "price": 3223.07,
+    "description": "Descripcion",
+    "tags": " otro status",
+    "is_active": false,
+    "id": "8"
+}
+25-09-2023 11:45:30 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+25-09-2023 11:45:30 INFO [api.stepDefinitions.ClientSteps:125] - the response should have the following details:| Name        | Trademark      | Stock | Price   | Description | Tags        | Is Active |
+| Otro nombre | Otro trademark | 7000  | 3223.07 | Descripcion | otro status | false     |
+
+25-09-2023 11:45:30 INFO [api.stepDefinitions.ClientSteps:149] - validates the response with resources list JSON schema
+]]></system-out>
+  </testcase>
+</testsuite>

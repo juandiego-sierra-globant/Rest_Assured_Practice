@@ -1,0 +1,1218 @@
+2023-09-25 08:43:30.390 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 08:43:30.411 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 08:43:30.412 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 08:43:30.861 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 08:43:32.972 INFO [api.stepDefinitions.ClientSteps:85] - I send a GET request to view all the resources
+2023-09-25 08:43:33.543 INFO [api.stepDefinitions.ClientSteps:87] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "Prueba de oriental",
+        "trademark": "Mor, Zulauf and Schaefer",
+        "stock": 50000,
+        "price": 27000,
+        "description": "I like pants",
+        "tags": "new status",
+        "is_active": true,
+        "id": "8"
+    }
+]
+2023-09-25 08:43:33.547 INFO [api.stepDefinitions.ClientSteps:108] - the response should have a status code of 200
+2023-09-25 08:43:33.566 INFO [api.stepDefinitions.ClientSteps:138] - validates the response with resources list JSON schema
+2023-09-25 09:37:35.198 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 09:37:35.200 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 09:37:35.201 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 09:37:35.541 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:03:31.899 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:03:31.903 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:03:31.904 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:03:32.216 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:05:28.287 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:05:28.290 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:05:28.290 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:05:28.600 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:05:30.016 INFO [api.stepDefinitions.ClientSteps:86] - I send a GET request to view all the resources
+2023-09-25 10:05:30.533 INFO [api.stepDefinitions.ClientSteps:88] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "Prueba de oriental",
+        "trademark": "Mor, Zulauf and Schaefer",
+        "stock": 50000,
+        "price": 27000,
+        "description": "I like pants",
+        "tags": "new status",
+        "is_active": true,
+        "id": "8"
+    }
+]
+2023-09-25 10:05:30.535 INFO [api.stepDefinitions.ClientSteps:110] - the response should have a status code of 200
+2023-09-25 10:05:30.538 INFO [api.stepDefinitions.ClientSteps:140] - validates the response with resources list JSON schema
+2023-09-25 10:07:44.219 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:07:44.222 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:07:44.222 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:07:44.528 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:09:02.318 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:09:02.321 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:09:02.321 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:09:02.628 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:09:51.219 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:09:51.223 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:09:51.223 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:09:51.483 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:12:24.801 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:12:24.805 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:12:24.806 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:12:25.079 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:30:44.562 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:30:44.565 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:30:44.565 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:30:44.856 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:37:21.940 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:37:21.943 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:37:21.943 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:37:22.268 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:37:29.173 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:37:29.176 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:37:29.176 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:37:29.459 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:37:30.757 INFO [api.stepDefinitions.ClientSteps:86] - I send a GET request to view all the resources
+2023-09-25 10:37:31.268 INFO [api.stepDefinitions.ClientSteps:88] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "8"
+    }
+]
+2023-09-25 10:39:55.958 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:39:55.960 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:39:55.960 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:39:56.239 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:39:57.571 INFO [api.stepDefinitions.ClientSteps:86] - I send a GET request to view all the resources
+2023-09-25 10:39:58.062 INFO [api.stepDefinitions.ClientSteps:88] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "8"
+    }
+]
+2023-09-25 10:39:58.256 INFO [api.stepDefinitions.ClientSteps:111] - the response should have a status code of 200
+2023-09-25 10:39:58.258 INFO [api.stepDefinitions.ClientSteps:141] - validates the response with resources list JSON schema
+2023-09-25 10:40:13.743 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:40:13.746 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:40:13.746 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:40:14.026 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:40:15.764 INFO [api.stepDefinitions.ClientSteps:86] - I send a GET request to view all the resources
+2023-09-25 10:40:16.292 INFO [api.stepDefinitions.ClientSteps:88] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "8"
+    }
+]
+2023-09-25 10:42:06.622 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:42:06.625 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 10:42:06.626 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:42:06.909 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:42:08.757 INFO [api.stepDefinitions.ClientSteps:44] - [Resources(name=NewName, trademark=NewTradeMark, stock=1000, price=99.99, description=description, tags=NewTag, is_active=true, id=3), Resources(name=Recycled Wooden Bike, trademark=MacGyver - Nader, stock=98196, price=27421.92, description=The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients, tags=email, is_active=true, id=4), Resources(name=Intelligent Steel Fish, trademark=Stokes - Yost, stock=24835, price=11243.02, description=Carbonite web goalkeeper gloves are ergonomically designed to give easy fit, tags=createdAt, is_active=true, id=5), Resources(name=Electronic Plastic Tuna, trademark=Towne, Spinka and Zieme, stock=72539, price=71089.12, description=Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support, tags=password, is_active=false, id=6), Resources(name=NewName, trademark=NewTradeMark, stock=1000, price=99.99, description=description, tags=NewTag, is_active=false, id=7), Resources(name=NewName, trademark=NewTradeMark, stock=1000, price=99.99, description=description, tags=NewTag, is_active=true, id=8)]
+2023-09-25 10:42:08.759 INFO [api.stepDefinitions.ClientSteps:86] - I send a GET request to view all the resources
+2023-09-25 10:42:09.167 INFO [api.stepDefinitions.ClientSteps:111] - the response should have a status code of 200
+2023-09-25 10:42:09.169 INFO [api.stepDefinitions.ClientSteps:141] - validates the response with resources list JSON schema
+2023-09-25 10:47:55.384 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:47:55.387 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 10:47:55.387 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:47:55.657 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:47:57.271 INFO [api.stepDefinitions.ClientSteps:78] - I retrieve the details of the latest resource
+2023-09-25 10:47:57.296 INFO [api.stepDefinitions.ClientSteps:82] - Last resource: Resources(name=NewName, trademark=NewTradeMark, stock=1000, price=99.99, description=description, tags=NewTag, is_active=true, id=8)
+2023-09-25 10:47:57.299 INFO [api.stepDefinitions.ClientSteps:114] - I send a PUT request to update the client with ID {
+  "name": "Maria",
+  "lastName": "Gomez",
+  "gender": "Female",
+  "country": "Spain",
+  "city": "Barcelona"
+}1
+2023-09-25 10:47:57.301 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 10:47:57.306 INFO [api.stepDefinitions.ClientSteps:125] - the response should have the following details:| Name  | LastName | Gender | Country | City      | Id |
+| Maria | Gomez    | Female | Spain   | Barcelona | 1  |
+
+2023-09-25 10:47:57.307 INFO [api.stepDefinitions.ClientSteps:136] - validates the response with client JSON schema
+2023-09-25 10:50:46.559 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:50:46.560 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 10:50:46.561 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:50:46.825 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:50:48.409 INFO [api.stepDefinitions.ClientSteps:78] - I retrieve the details of the latest resource
+2023-09-25 10:50:48.435 INFO [api.stepDefinitions.ClientSteps:82] - Last resource: Resources(name=NewName, trademark=NewTradeMark, stock=1000, price=99.99, description=description, tags=NewTag, is_active=true, id=8)
+2023-09-25 10:50:48.437 INFO [api.stepDefinitions.ClientSteps:114] - I send a PUT request to update the client with ID {
+  "name": "Maria",
+  "lastName": "Gomez",
+  "gender": "Female",
+  "country": "Spain",
+  "city": "Barcelona"
+}1
+2023-09-25 10:50:48.438 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 10:50:48.443 INFO [api.stepDefinitions.ClientSteps:125] - the response should have the following details:| Name  | LastName | Gender | Country | City      | Id |
+| Maria | Gomez    | Female | Spain   | Barcelona | 1  |
+
+2023-09-25 10:50:48.444 INFO [api.stepDefinitions.ClientSteps:136] - validates the response with client JSON schema
+2023-09-25 10:52:40.840 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 10:52:40.841 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 10:52:40.842 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 10:52:41.105 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 10:52:42.755 INFO [api.stepDefinitions.ClientSteps:78] - I retrieve the details of the latest resource
+2023-09-25 10:52:42.766 INFO [api.stepDefinitions.ClientSteps:82] - Last resource: 8
+2023-09-25 10:52:42.767 INFO [api.stepDefinitions.ClientSteps:114] - I send a PUT request to update the client with ID {
+  "name": "Maria",
+  "lastName": "Gomez",
+  "gender": "Female",
+  "country": "Spain",
+  "city": "Barcelona"
+}1
+2023-09-25 10:52:42.768 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 10:52:42.772 INFO [api.stepDefinitions.ClientSteps:125] - the response should have the following details:| Name  | LastName | Gender | Country | City      | Id |
+| Maria | Gomez    | Female | Spain   | Barcelona | 1  |
+
+2023-09-25 10:52:42.773 INFO [api.stepDefinitions.ClientSteps:136] - validates the response with client JSON schema
+2023-09-25 11:11:19.068 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:11:19.070 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:11:19.070 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:11:19.343 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 11:11:21.148 INFO [api.stepDefinitions.ClientSteps:78] - I retrieve the details of the latest resource
+2023-09-25 11:11:51.526 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:11:51.529 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:11:51.529 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:11:51.812 INFO [api.stepDefinitions.ClientSteps:41] - there are registered resources in the system
+2023-09-25 11:11:53.508 INFO [api.stepDefinitions.ClientSteps:78] - I retrieve the details of the latest resource
+2023-09-25 11:20:06.115 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:20:06.118 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:20:06.118 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:20:06.405 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:20:08.128 INFO [api.stepDefinitions.ClientSteps:79] - I retrieve the details of the latest resource
+2023-09-25 11:20:08.138 INFO [api.stepDefinitions.ClientSteps:120] - I send a PUT request to update the latest resource{
+    "name": "Otro nombre",
+    "trademark": "Otro trademark",
+    "stock": 7000,
+    "price": 3223.07,
+    "description": "Descripcion",
+    "tags": " otro status",
+    "is_active": false
+}
+2023-09-25 11:20:08.153 INFO [api.stepDefinitions.ClientSteps:124] - Resources(name=Otro nombre, trademark=Otro trademark, stock=7000, price=3223.07, description=Descripcion, tags= otro status, is_active=false, id=null)
+2023-09-25 11:20:08.155 INFO [api.stepDefinitions.ClientSteps:134] - the response should have a status code of 200
+2023-09-25 11:20:08.158 INFO [api.stepDefinitions.ClientSteps:140] - the response should have the following details:| Name  | LastName | Gender | Country | City      | Id |
+| Maria | Gomez    | Female | Spain   | Barcelona | 1  |
+
+2023-09-25 11:20:08.159 INFO [api.stepDefinitions.ClientSteps:151] - validates the response with client JSON schema
+2023-09-25 11:24:48.680 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:24:48.683 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:24:48.683 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:24:48.954 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:24:50.583 INFO [api.stepDefinitions.ClientSteps:79] - I retrieve the details of the latest resource
+2023-09-25 11:24:50.607 INFO [api.stepDefinitions.ClientSteps:122] - I send a PUT request to update the latest resourceResources(name=Otro nombre, trademark=Otro trademark, stock=7000, price=3223.07, description=Descripcion, tags= otro status, is_active=false, id=null)
+2023-09-25 11:24:51.101 INFO [api.stepDefinitions.ClientSteps:133] - the response should have a status code of 200
+2023-09-25 11:24:51.108 INFO [api.stepDefinitions.ClientSteps:139] - the response should have the following details:| Name  | LastName | Gender | Country | City      | Id |
+| Maria | Gomez    | Female | Spain   | Barcelona | 1  |
+
+2023-09-25 11:24:51.109 INFO [api.stepDefinitions.ClientSteps:150] - validates the response with client JSON schema
+2023-09-25 11:30:47.178 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:30:47.180 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:30:47.180 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:30:47.462 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:30:49.103 INFO [api.stepDefinitions.ClientSteps:79] - I retrieve the details of the latest resource
+2023-09-25 11:30:49.511 INFO [api.stepDefinitions.ClientSteps:122] - I send a PUT request to update the latest resourceio.restassured.internal.RestAssuredResponseImpl@57c6feea
+2023-09-25 11:30:49.984 INFO [api.stepDefinitions.ClientSteps:133] - the response should have a status code of 200
+2023-09-25 11:30:49.999 INFO [api.stepDefinitions.ClientSteps:139] - the response should have the following details:| Name        | Trademark      | Stock | Price   | Description | Tags        | Is Active |
+| Otro nombre | Otro trademark | 7000  | 3223.07 | Descripcion | otro status | false     |
+
+2023-09-25 11:30:50.001 INFO [api.stepDefinitions.ClientSteps:163] - validates the response with resources list JSON schema
+2023-09-25 11:32:10.950 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:32:10.952 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:32:10.953 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:32:11.221 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:32:12.874 INFO [api.stepDefinitions.ClientSteps:79] - I retrieve the details of the latest resource
+2023-09-25 11:32:14.081 INFO [api.stepDefinitions.ClientSteps:122] - I send a PUT request to update the latest resource{
+    "name": "Otro nombre",
+    "trademark": "Otro trademark",
+    "stock": 7000,
+    "price": 3223.07,
+    "description": "Descripcion",
+    "tags": " oo status",
+    "is_active": false,
+    "id": "8"
+}
+2023-09-25 11:32:14.542 INFO [api.stepDefinitions.ClientSteps:133] - the response should have a status code of 200
+2023-09-25 11:32:14.548 INFO [api.stepDefinitions.ClientSteps:139] - the response should have the following details:| Name        | Trademark      | Stock | Price   | Description | Tags        | Is Active |
+| Otro nombre | Otro trademark | 7000  | 3223.07 | Descripcion | otro status | false     |
+
+2023-09-25 11:32:14.550 INFO [api.stepDefinitions.ClientSteps:163] - validates the response with resources list JSON schema
+2023-09-25 11:45:23.923 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:45:23.926 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Clients
+2023-09-25 11:45:23.926 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:45:24.198 INFO [api.stepDefinitions.ClientSteps:30] - there are registered clients in the system
+2023-09-25 11:45:25.978 INFO [api.stepDefinitions.ClientSteps:81] - I send a GET request to view all the clients
+2023-09-25 11:45:26.479 INFO [api.stepDefinitions.ClientSteps:83] - [
+    {
+        "name": "Berneice",
+        "lastName": "Hintz",
+        "country": "Barbados",
+        "city": "Yorba Linda",
+        "email": "Donato43@hotmail.com",
+        "phone": "1-425-705-0487 x77466",
+        "id": "1"
+    },
+    {
+        "name": "Crystal",
+        "lastName": "Mraz",
+        "country": "Cocos (Keeling) Islands",
+        "city": "Cedar Rapids",
+        "email": "Leann84@gmail.com",
+        "phone": "417-928-1106 x973",
+        "id": "2"
+    },
+    {
+        "name": "Arlene",
+        "lastName": "Reynolds",
+        "country": "Guatemala",
+        "city": "Lee's Summit",
+        "email": "Adaline_Murray26@gmail.com",
+        "phone": "(758) 351-6898",
+        "id": "3"
+    },
+    {
+        "name": "Maiya",
+        "lastName": "Schmitt",
+        "country": "Syrian Arab Republic",
+        "city": "Pensacola",
+        "email": "Otilia2@yahoo.com",
+        "phone": "(271) 591-8686",
+        "id": "4"
+    },
+    {
+        "name": "Jaylin",
+        "lastName": "MacGyver",
+        "country": "Namibia",
+        "city": "Missouri City",
+        "email": "Russ_Braun@gmail.com",
+        "phone": "1-777-247-3449 x306",
+        "id": "5"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "6"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "7"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "8"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "9"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "10"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "11"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "12"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "13"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "14"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "15"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "16"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "17"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "18"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "19"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "20"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "21"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "22"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "23"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "24"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "25"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "26"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "27"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john-doe@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "28"
+    },
+    {
+        "name": "John",
+        "lastName": "Doe",
+        "country": "USA",
+        "city": "New York",
+        "email": "john-doe@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "29"
+    },
+    {
+        "name": "Taylor",
+        "lastName": "Sift",
+        "country": "USA",
+        "city": "New York",
+        "email": "taylor-swift@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "30"
+    },
+    {
+        "name": "Taylor",
+        "lastName": "Swift",
+        "country": "USA",
+        "city": "New York",
+        "email": "taylor-swift@gmail.com",
+        "phone": "\"1-425-705-0487 x77466",
+        "id": "31"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "39"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "40"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "41"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "45"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "46"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "48"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "49"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "50"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "51"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "52"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "53"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "54"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "55"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "56"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "57"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "58"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "59"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "60"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "61"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "62"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "63"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "64"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "65"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "66"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "67"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "68"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "69"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "70"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "71"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "72"
+    },
+    {
+        "name": "alejo",
+        "lastName": "lopez",
+        "country": "Colombia",
+        "city": "Cali",
+        "email": "alejo.lopez@email.com",
+        "phone": "1234567890",
+        "id": "73"
+    },
+    {
+        "name": "Santiago",
+        "lastName": "Canedo",
+        "country": "USA",
+        "city": "New York",
+        "email": "new-mail@gmail.com",
+        "phone": "427-528-7246 x97323",
+        "id": "74"
+    },
+    {
+        "name": "name",
+        "lastName": "lastName",
+        "country": "country",
+        "city": "city",
+        "email": "email@email.com",
+        "phone": "123-456-7890",
+        "id": "75"
+    },
+    {
+        "name": "<name>",
+        "lastName": "<lastName>",
+        "country": "<country>",
+        "city": "<city>",
+        "email": "<email@email.com>",
+        "phone": "<123-456-7890>",
+        "id": "76"
+    },
+    {
+        "name": "<name>",
+        "lastName": "<lastName>",
+        "country": "<country>",
+        "city": "<city>",
+        "email": "<email@email.com>",
+        "phone": "<123-456-7890>",
+        "id": "77"
+    }
+]
+2023-09-25 11:45:26.485 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 11:45:26.488 INFO [api.stepDefinitions.ClientSteps:141] - validates the response with client list JSON schema
+2023-09-25 11:45:27.182 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:45:27.182 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the List of Resources
+2023-09-25 11:45:27.182 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:45:27.183 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:45:27.599 INFO [api.stepDefinitions.ClientSteps:88] - I send a GET request to view all the resources
+2023-09-25 11:45:27.963 INFO [api.stepDefinitions.ClientSteps:90] - [
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": true,
+        "id": "3"
+    },
+    {
+        "name": "Recycled Wooden Bike",
+        "trademark": "MacGyver - Nader",
+        "stock": 98196,
+        "price": 27421.92,
+        "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+        "tags": "email",
+        "is_active": true,
+        "id": "4"
+    },
+    {
+        "name": "Intelligent Steel Fish",
+        "trademark": "Stokes - Yost",
+        "stock": 24835,
+        "price": 11243.02,
+        "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+        "tags": "createdAt",
+        "is_active": true,
+        "id": "5"
+    },
+    {
+        "name": "Electronic Plastic Tuna",
+        "trademark": "Towne, Spinka and Zieme",
+        "stock": 72539,
+        "price": 71089.12,
+        "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+        "tags": "password",
+        "is_active": false,
+        "id": "6"
+    },
+    {
+        "name": "NewName",
+        "trademark": "NewTradeMark",
+        "stock": 1000,
+        "price": 99.99,
+        "description": "description",
+        "tags": "NewTag",
+        "is_active": false,
+        "id": "7"
+    },
+    {
+        "name": "Otro nombre",
+        "trademark": "Otro trademark",
+        "stock": 7000,
+        "price": 3223.07,
+        "description": "Descripcion",
+        "tags": " otro status",
+        "is_active": false,
+        "id": "8"
+    }
+]
+2023-09-25 11:45:27.965 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 11:45:27.965 INFO [api.stepDefinitions.ClientSteps:149] - validates the response with resources list JSON schema
+2023-09-25 11:45:28.359 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:45:28.359 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Create a new client
+2023-09-25 11:45:28.359 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:45:28.374 INFO [api.stepDefinitions.ClientSteps:54] - I have a client with the following details:| Name   | LastName | Country | City     | Email                  | Phone                  |
+| Taylor | Swift    | USA     | New York | taylor-swift@gmail.com | "1-425-705-0487 x77466 |
+
+2023-09-25 11:45:28.381 INFO [api.stepDefinitions.ClientSteps:95] - I send a POST request to create a client
+2023-09-25 11:45:29.167 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 201
+2023-09-25 11:45:29.168 INFO [api.stepDefinitions.ClientSteps:130] - the response should include the details of the created client
+2023-09-25 11:45:29.168 INFO [api.stepDefinitions.ClientSteps:131] - {
+    "name": "Taylor",
+    "lastName": "Swift",
+    "country": "USA",
+    "city": "New York",
+    "email": "taylor-swift@gmail.com",
+    "phone": "\"1-425-705-0487 x77466",
+    "id": "78"
+}
+2023-09-25 11:45:29.170 INFO [api.stepDefinitions.ClientSteps:136] - validates the response with client JSON schema
+2023-09-25 11:45:29.179 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2023-09-25 11:45:29.179 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update last details
+2023-09-25 11:45:29.179 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2023-09-25 11:45:29.180 INFO [api.stepDefinitions.ClientSteps:42] - there are registered resources in the system
+2023-09-25 11:45:29.564 INFO [api.stepDefinitions.ClientSteps:75] - I retrieve the details of the latest resource
+2023-09-25 11:45:29.956 INFO [api.stepDefinitions.ClientSteps:109] - I send a PUT request to update the latest resource{
+    "name": "Otro nombre",
+    "trademark": "Otro trademark",
+    "stock": 7000,
+    "price": 3223.07,
+    "description": "Descripcion",
+    "tags": " otro status",
+    "is_active": false,
+    "id": "8"
+}
+2023-09-25 11:45:30.354 INFO [api.stepDefinitions.ClientSteps:119] - the response should have a status code of 200
+2023-09-25 11:45:30.355 INFO [api.stepDefinitions.ClientSteps:125] - the response should have the following details:| Name        | Trademark      | Stock | Price   | Description | Tags        | Is Active |
+| Otro nombre | Otro trademark | 7000  | 3223.07 | Descripcion | otro status | false     |
+
+2023-09-25 11:45:30.356 INFO [api.stepDefinitions.ClientSteps:149] - validates the response with resources list JSON schema

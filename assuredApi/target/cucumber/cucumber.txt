@@ -1,0 +1,35 @@
+
+@active @restAssuredTests
+Scenario: Get the List of Clients                         # src/test/resources/features/client_testing_crud.feature:5
+  Given there are registered clients in the system        # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredClientsInTheSystem()
+  When I send a GET request to view all the clients       # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheClient()
+  Then the response should have a status code of 200      # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with client list JSON schema # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientListJSONSchema()
+
+@active @restAssuredTests
+Scenario: Get the List of Resources                          # src/test/resources/features/client_testing_crud.feature:12
+  Given there are registered resources in the system         # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredResourcesInTheSystem()
+  When I send a GET request to view all the resources        # com.testing.api.stepDefinitions.ClientSteps.iSendAGETRequestToViewAllTheResources()
+  Then the response should have a status code of 200         # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with resources list JSON schema # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithResourcesListJSONSchema()
+
+@active @restAssuredTests
+Scenario: Create a new client                                       # src/test/resources/features/client_testing_crud.feature:19
+  Given I have a client with the following details:                 # com.testing.api.stepDefinitions.ClientSteps.iHaveAClientWithTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name   | LastName | Country | City     | Email                  | Phone                  |
+    | Taylor | Swift    | USA     | New York | taylor-swift@gmail.com | "1-425-705-0487 x77466 |
+  When I send a POST request to create a client                     # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateAClient()
+  Then the response should have a status code of 201                # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the response should include the details of the created client # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldIncludeTheDetailsOfTheCreatedClient()
+  And validates the response with client JSON schema                # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+
+@active @restAssuredTests
+Scenario: Update last details                                # src/test/resources/features/client_testing_crud.feature:29
+  Given there are registered resources in the system         # com.testing.api.stepDefinitions.ClientSteps.thereAreRegisteredResourcesInTheSystem()
+  And I retrieve the details of the latest resource          # com.testing.api.stepDefinitions.ClientSteps.sendGETRequestResource()
+  When I send a PUT request to update the latest resource    # com.testing.api.stepDefinitions.ClientSteps.iSendAPUTRequestToUpdateTheClientWithID(java.lang.String)
+  Then the response should have a status code of 200         # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And the response should have the following details:        # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveTheFollowingDetails(io.cucumber.datatable.DataTable)
+    | Name        | Trademark      | Stock | Price   | Description | Tags        | Is Active |
+    | Otro nombre | Otro trademark | 7000  | 3223.07 | Descripcion | otro status | false     |
+  And validates the response with resources list JSON schema # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithResourcesListJSONSchema()
